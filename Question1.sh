@@ -1,1 +1,1 @@
-echo $(( RANDOM % 9 + 1 ))
+echo $(( RANDOM % 8 + 1 ))
