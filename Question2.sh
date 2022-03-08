@@ -1,5 +1,5 @@
-random1 = $(( RANDOM % 6 + 1 ))
-case $random1 in
+random=$(( RANDOM % 6 + 1 ))
+case $random in
 	1) echo "one"
 	;;
 	2) echo "Two"
